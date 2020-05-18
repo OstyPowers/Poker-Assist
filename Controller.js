@@ -216,7 +216,192 @@ class Controller {
             },
             {
                 "rank": 35,
-                "holecards":
+                "holecards": [ace, five],
+                "suited": true,
+            },
+            {
+                "rank": 36,
+                "holecards": [king, jack],
+                "suited": false,
+            },
+            {
+                "rank": 37,
+                "holecards": [nine, eight],
+                "suited": true,
+            },
+            {
+                "rank": 38,
+                "holecards": [two, two],
+                "suited": false,
+            },
+            {
+                "rank"; 39,
+                "holecards": [ace, six],
+                "suited": true,
+            },
+            {
+                "rank": 40,
+                "holecards": [ace, nine],
+                "suited": false,
+            },
+            {
+                "rank": 41,
+                "holecards": [ace, four],
+                "suited": true,
+            },
+            {
+                "rank": 42,
+                "holecards": [ace, three],
+                "suited": true,
+            },
+            {
+                "rank": 43,
+                "holecards": [ten, eight],
+                "suited": true,
+            },
+            {
+                "rank": 44,
+                "holecards": [queen, jack],
+                "suited": false,
+            },
+            {
+                "rank": 45,
+                "holecards": [ace, two],
+                "suited": true,
+            },
+            {
+                "rank": 46,
+                "holecards": [ace, eight],
+                "suited": false,
+            },
+            {
+                "rank": 47,
+                "holecards": [jack, ten],
+                "suited": false,
+            },
+            {
+                "rank": 48,
+                "holecards": [ace, seven],
+                "suited": false,
+            },
+            {
+                "rank": 49,
+                "holecards": [jack, eight],
+                "suited": true,
+            },
+            {
+                "rank": 50,
+                "holecards": [ace, five],
+                "suited": false,
+            },
+            {
+                "rank": 51,
+                "holecards": [king, ten],
+                "suited": false,
+            },
+            {
+                "rank": 52,
+                "holecards": [eight, seven],
+                "suited": "true",
+            },
+            {
+                "rank": 53,
+                "holecards": [ace, six],
+                "suited": false,
+            },
+            {
+                "rank": 54,
+                "holecards": [ace, four],
+                "suited": false,
+            },
+            {
+                "rank": 55,
+                "holecards": [king, eight],
+                "suited": true,
+            },
+            {
+                "rank": 56,
+                "holecards": [nine, seven],
+                "suited": true,
+            },
+            {
+                "rank": 57,
+                "holecards": [queen, ten],
+                "suited": false,
+            },
+            {
+                "rank": 58,
+                "holecards": [ace, three],
+                "suited": false,
+            },
+            {
+                "rank": 59,
+                "holecards": [queen, eight],
+                "suited": true,
+            },
+            {
+                "rank": 60,
+                "holecards": [seven, six],
+                "suited": true,
+            },
+            {
+                "rank": 61,
+                "holecards": [acce, two],
+                "suited": false,
+            },
+            {
+                "rank": 62,
+                "holecards": [ten, seven],
+                "suited": true,
+            },
+            {
+                "rank": 63,
+                "holecards": [eight, six],
+                "suited": true,
+            },
+            {
+                "rank": 64,
+                "holecards": [king, seven],
+                "suited": true,
+            },
+            {
+                "rank": 65,
+                "holecards": [king, six],
+                "suited": true,
+            },
+            {
+                "rank": 66,
+                "holecards": [king, five],
+                "suited": true,
+            },
+            {
+                "rank": 67,
+                "holecards": [king, nine],
+                "suited": false,
+            },
+            {
+                "rank": 68,
+                "holecards": [jack, seven],
+                "suited": true,
+            },
+            {
+                "rank": 69,
+                "holecards": [six, five],
+                "suited": true,
+            },
+            {
+                "rank": 70,
+                "holecards": [ten, nine],
+                "suited": false,
+            },
+            {
+                "rank": 71,
+                "holecards": [king, four],
+                "suited": true,
+            },
+            {
+                "rank": 72,
+                "holecards": 
             }]
         }
     }
