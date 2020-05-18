@@ -43,6 +43,60 @@ class Controller {
                 "name": "high card",
             },
             ],
+            "cardrank": [
+            {
+                "rank": 1,
+                "name": "ace",
+            },
+            {
+                "rank": 2,
+                "name": "king",
+            },
+            {
+                "rank": 3,
+                "name": "queen",
+            },
+            {
+                "rank": 4,
+                "name": "jack",
+            },
+            {
+                "rank": 5,
+                "name": "ten",
+            },
+            {
+                "rank": 6,
+                "name": "nine",
+            },
+            {
+                "rank": 7,
+                "name": "eight",
+            },
+            {
+                "rank": 8, 
+                "name": "seven",
+            },
+            {
+                "rank": 9,
+                "name": "six",
+            },
+            {
+                "rank": 10,
+                "name": "five",
+            },
+            {
+                "rank": 11,
+                "name": "four",
+            },
+            {
+                "rank": 12,
+                "name": "three",
+            },
+            {
+                "rank": 13,
+                "name": "two",
+            },
+            ]
             "rankorder": [
             {
                 "rank": 1,
@@ -401,8 +455,495 @@ class Controller {
             },
             {
                 "rank": 72,
-                "holecards": 
-            }]
+                "holecards": [five, four],
+                "suited": true,
+            },
+            {
+                "rank": 73,
+                "holecards": [queen, seven],
+                "suited": true,
+            },
+            {
+                "rank": 74,
+                "holecards": [nine, six],
+                "suited": true,
+            },
+            {
+                "rank": 75,
+                "holecards": [eight, five],
+                "suited": true,
+            },
+            {
+                "rank": 76,
+                "holecards": [ten, eight],
+                "suited": false,
+            },
+            {
+                "rank": 77,
+                "holecards": [nine, eight],
+                "suited": false,
+            },
+            {
+                "rank": 78,
+                "holecards": [six, four],
+                "suited": true,
+            },
+            {
+                "rank": 79,
+                "holecards": [king, three],
+                "suited": true,
+            },
+            {
+                "rank": 80,
+                "holecards": [king, eight],
+                "suited": false,
+            },
+            {
+                "rank": 81,
+                "holecards": [seven, five],
+                "suited": true,
+            },
+            {
+                "rank": 82,
+                "holecards": [queen, six],
+                "suited": true,
+            },
+            {
+                "rank": 83,
+                "holecards": [jack, six],
+                "suited": true,
+            },
+            {
+                "rank": 84,
+                "holecards": [eight, seven],
+                "suited": false,
+            },
+            {
+                "rank": 85,
+                "holecards": [ten, six],
+                "suited": true,
+            },
+            {
+                "rank": 86,
+                "holecards": [seven, four],
+                "suited": true,
+            },
+            {
+                "rank": 87,
+                "holecards": [nine, five],
+                "suited": true,
+            },
+            {
+                "rank": 88,
+                "holecards": [king, two],
+                "suited": true,
+            },
+            {
+                "rank": 89,
+                "holecards": [king, seven],
+                "suited": false,
+            },
+            {
+                "rank": 90,
+                "holecards": [queen, nine],
+                "suited": false,
+            },
+            {
+                "rank": 91,
+                "holecards": [ten, five],
+                "suited": true,
+            },
+            {
+                "rank": 92,
+                "holecards": [king, six],
+                "suited": false,
+            },
+            {
+                "rank": 93,
+                "holecards": [king, five],
+                "suited": false,
+            },
+            {
+                "rank": 94,
+                "holecards": [jack, nine],
+                "suited": false,
+            },
+            {
+                "rank": 95,
+                "holecards": [queen, five],
+                "suited": true,
+            },
+            {
+                "rank": 96,
+                "holecards": [queen, four],
+                "suited": true,
+            },
+            {
+                "rank": 97,
+                "holecards": [queen, three],
+                "suited": true,
+            },
+            {
+                "rank": 98,
+                "holecards": [jack, eight],
+                "suited": false,
+            },
+            {
+                "rank": 99,
+                "holecards": [king, four],
+                "suited": false,
+            },
+            {
+                "rank": 100,
+                "holecards": [queen, two],
+                "suited": true,
+            },
+            {
+                "rank": 101,
+                "holecards": [king, three],
+                "suited": false,
+            },
+            {
+                "rank": 102,
+                "holecards": [queen, eight],
+                "suited": false,
+            },
+            {
+                "rank": 103,
+                "holecards": [jack, seven],
+                "suited": false,
+            },
+            {
+                "rank": 104,
+                "holecards": [jack, five],
+                "suited": true,
+            },
+            {
+                "rank": 105,
+                "holecards": [nine, seven],
+                "suited": false,
+            },
+            {
+                "rank": 106,
+                "holdcards": [jack, four],
+                "suited": true,
+            },
+            {
+                "rank": 107,
+                "holdcards": [ten, four],
+                "suited": true,
+            },
+            {
+                "rank": 108,
+                "holdcards": [king, two],
+                "suited": false,
+            },
+            {
+                "rank": 109,
+                "holdcards": [jack, three],
+                "suited": true,
+            },
+            {
+                "rank": 110,
+                "holdcards": [four, three],
+                "suited": true,
+            },
+            {
+                "rank": 111,
+                "holecards": [queen, seven],
+                "suited": false,
+            },
+            {
+                "rank": 112,
+                "holdcards": [queen, six],
+                "suited": false,
+            },
+            {
+                "rank": 113,
+                "holdcards": [ten, seven],
+                "suited": false,
+            },
+            {
+                "rank": 114,
+                "holdcards": [queen, five],
+                "suited": false,
+            },
+            {
+                "rank": 115,
+                "holdcards": [eight, four],
+                "suited": true,
+            },
+            {
+                "rank": 116,
+                "holecards": [jack, two],
+                "suited": true,
+            },
+            {
+                "rank": 117,
+                "holecards": [ten, three],
+                "suited": true,
+            },
+            {
+                "rank": 118,
+                "holdcards": [queen, four],
+                "suited": false,
+            },
+            {
+                "rank": 119,
+                "holecards": [queen, three],
+                "suited": false,
+            },
+            {
+                "rank": 120,
+                "holecards": [eight, six],
+                "suited": false,
+            },
+            {
+                "rank": 121,
+                "holdcards": [jack, six],
+                "suited": false,
+            },
+            {
+                "rank": 122,
+                "holecards": [jack, five],
+                "suited": false,
+            },
+            {
+                "rank": 123,
+                "holdcards": [queen, two],
+                "suited": false,
+            },
+            {
+                "rank": 124,
+                "holdcards": [ten, two],
+                "suited": true,
+            },
+            {
+                "rank": 125,
+                "holecards": [nine, four],
+                "suited": true,
+            },
+            {
+                "rank": 126,
+                "holdcards": [nine, three],
+                "suited": true,
+            },
+            {
+                "rank": 127,
+                "holdcards": [nine, six],
+                "suited": false,
+            },
+            {
+                "rank": 128,
+                "holdcards": [ten, six],
+                "suited": false,
+            },
+            {
+                "rank": 129,
+                "holdcards": [jack, four],
+                "suited": false,
+            },
+            {
+                "rank": 130,
+                "holdcards": [jack, three],
+                "suited": false,
+            },
+            {
+                "rank": 131,
+                "holdcards": [jack, two],
+                "suited": false,
+            },
+            {
+                "rank": 132,
+                "holdcards": [five, three],
+                "suited": true,
+            },
+            {
+                "rank": 133,
+                "holdcards": [seven, six],
+                "suited": false,
+            },
+            {
+                "rank": 140,
+                "holdcards": [six, three],
+                "suited": true,
+            },
+            {
+                "rank": 141,
+                "holdcards": [six, five],
+                "suited": false,
+            },
+            {
+                "rank": 142,
+                "holdcards": [nine, two],
+                "suited": true,
+            },
+            {
+                "rank": 143,
+                "holdcards": [ten, five],
+                "suited": false,
+            },
+            {
+                "rank": 144,
+                "holdcards": [seven, three],
+                "suited": true,
+            },
+            {
+                "rank": 145,
+                "holdcards": [five, two],
+                "suited": true,
+            },
+            {
+                "rank": 146,
+                "holdcards": [seven, five],
+                "suited": false,
+            },
+            {
+                "rank": 147,
+                "holdcards": [five, four],
+                "suited": false,
+            },
+            {
+                "rank": 148,
+                "holdcards": [six, two],
+                "suited": true,
+            },
+            {
+                "rank": 149,
+                "holdcards": [eight, three],
+                "suited": true,
+            },
+            {
+                "rank": 150,
+                "holdcards": [eight, two],
+                "suited": true,
+            },
+            {
+                "rank": 151,
+                "holdcards": [six, four],
+                "suited": false,
+            },
+            {
+                "rank": 152,
+                "holdcards": [seven, two],
+                "suited": true,
+            },
+            {
+                "rank": 153,
+                "holdcards": [eight, five],
+                "suited": false,
+            },
+            {
+                "rank": 154,
+                "holdcards": [nine, five],
+                "suited": false,
+            },
+            {
+                "rank": 155,
+                "holdcards": [seven, four],
+                "suited": false,
+            },
+            {
+                "rank": 156,
+                "holdcards": [eight, four],
+                "suited": false,
+            },
+            {
+                "rank": 157,
+                "holdcards": [nine, four],
+                "suited": false,
+            },
+            {
+                "rank": 158,
+                "holdcards": [nine, three],
+                "suited": false,
+            },
+            {
+                "rank": 159,
+                "holecards": [ten, four],
+                "suited": false,
+            },
+            {
+                "rank": 160,
+                "holdcards": [nine, two],
+                "suited": false,
+            },
+            {
+                "rank": 161,
+                "holdcards": [four, two],
+                "suited": true,
+            },
+            {
+                "rank": 162,
+                "holecards": [three, two],
+                "suited": true,
+            },
+            {
+                "rank": 163,
+                "holdcards": [five, three],
+                "suited": false,
+            },
+            {
+                "rank": 164,
+                "holdcards": [four, three],
+                "suited": false,
+            },
+            {
+                "rank": 165,
+                "holdcards": [six, three],
+                "suited": false,
+            },
+            {
+                "rank": 166,
+                "holdcards": [ten, three],
+                "suited": false,
+            },
+            {
+                "rank": 167,
+                "holecards": [five, two],
+                "suited": false,
+            },
+            {
+                "rank": 168,
+                "holecards": [ten, two],
+                "suited": false,
+            },
+            {
+                "rank": 169,
+                "holecards": [seven, three],
+                "suited": false,
+            },
+            {
+                "rank": 170,
+                "holecards": [four, two],
+                "suited": false,
+            },
+            {
+                "rank": 171,
+                "holdcards": [three, two],
+                "suited": false,
+            },
+            {
+                "rank": 172,
+                "holdcards": [six, two],
+                "suited": false,
+            },
+            {
+                "rank": 173,
+                "holdcards": [eight, three],
+                "suited": false,
+            },
+            {
+                "rank": 174,
+                "holdcards": [eight, two],
+                "suited": false,
+            },
+            {
+                "rank": 175,
+                "holdcards": [seven. two],
+                "suited": false,
+            },
+            ]
         }
     }
 }
