@@ -25,7 +25,7 @@ class Controller {
             {
                 "rank": 6,
                 "name": "straight",
-            }
+            },
             {
                 "rank": 7,
                 "name": "three of a kind",
@@ -39,7 +39,7 @@ class Controller {
                 "name": "pair",
             },
             {
-                "rank" 10,
+                "rank": 10,
                 "name": "high card",
             },
             ],
@@ -96,7 +96,7 @@ class Controller {
                 "rank": 13,
                 "name": "two",
             },
-            ]
+            ],
             "rankorder": [
             {
                 "rank": 1,
@@ -107,7 +107,7 @@ class Controller {
                 "rank": 2,
                 "holecards": [king, king],
                 "suited": false,
-            }
+            },
             {
                 "rank": 3,
                 "holecars": [queen, queen],
@@ -142,7 +142,7 @@ class Controller {
                 "rank": 9,
                 "holecards": [ace, queen],
                 "suited": true,
-            }
+            },
             {
                 "rank": 10,
                 "holecards": [ace, queen],
@@ -289,7 +289,7 @@ class Controller {
                 "suited": false,
             },
             {
-                "rank"; 39,
+                "rank": 39,
                 "holecards": [ace, six],
                 "suited": true,
             },
