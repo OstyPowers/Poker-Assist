@@ -625,27 +625,27 @@ class Controller {
             },
             {
                 "rank": 106,
-                "holdcards": [jack, four],
+                "holecards": [jack, four],
                 "suited": true,
             },
             {
                 "rank": 107,
-                "holdcards": [ten, four],
+                "holecards": [ten, four],
                 "suited": true,
             },
             {
                 "rank": 108,
-                "holdcards": [king, two],
+                "holecards": [king, two],
                 "suited": false,
             },
             {
                 "rank": 109,
-                "holdcards": [jack, three],
+                "holecards": [jack, three],
                 "suited": true,
             },
             {
                 "rank": 110,
-                "holdcards": [four, three],
+                "holecards": [four, three],
                 "suited": true,
             },
             {
@@ -655,22 +655,22 @@ class Controller {
             },
             {
                 "rank": 112,
-                "holdcards": [queen, six],
+                "holecards": [queen, six],
                 "suited": false,
             },
             {
                 "rank": 113,
-                "holdcards": [ten, seven],
+                "holecards": [ten, seven],
                 "suited": false,
             },
             {
                 "rank": 114,
-                "holdcards": [queen, five],
+                "holecards": [queen, five],
                 "suited": false,
             },
             {
                 "rank": 115,
-                "holdcards": [eight, four],
+                "holecards": [eight, four],
                 "suited": true,
             },
             {
@@ -685,7 +685,7 @@ class Controller {
             },
             {
                 "rank": 118,
-                "holdcards": [queen, four],
+                "holecards": [queen, four],
                 "suited": false,
             },
             {
@@ -700,7 +700,7 @@ class Controller {
             },
             {
                 "rank": 121,
-                "holdcards": [jack, six],
+                "holecards": [jack, six],
                 "suited": false,
             },
             {
@@ -710,12 +710,12 @@ class Controller {
             },
             {
                 "rank": 123,
-                "holdcards": [queen, two],
+                "holecards": [queen, two],
                 "suited": false,
             },
             {
                 "rank": 124,
-                "holdcards": [ten, two],
+                "holecards": [ten, two],
                 "suited": true,
             },
             {
@@ -725,137 +725,137 @@ class Controller {
             },
             {
                 "rank": 126,
-                "holdcards": [nine, three],
+                "holecards": [nine, three],
                 "suited": true,
             },
             {
                 "rank": 127,
-                "holdcards": [nine, six],
+                "holecards": [nine, six],
                 "suited": false,
             },
             {
                 "rank": 128,
-                "holdcards": [ten, six],
+                "holecards": [ten, six],
                 "suited": false,
             },
             {
                 "rank": 129,
-                "holdcards": [jack, four],
+                "holecards": [jack, four],
                 "suited": false,
             },
             {
                 "rank": 130,
-                "holdcards": [jack, three],
+                "holecards": [jack, three],
                 "suited": false,
             },
             {
                 "rank": 131,
-                "holdcards": [jack, two],
+                "holecards": [jack, two],
                 "suited": false,
             },
             {
                 "rank": 132,
-                "holdcards": [five, three],
+                "holecards": [five, three],
                 "suited": true,
             },
             {
                 "rank": 133,
-                "holdcards": [seven, six],
+                "holecards": [seven, six],
                 "suited": false,
             },
             {
                 "rank": 140,
-                "holdcards": [six, three],
+                "holecards": [six, three],
                 "suited": true,
             },
             {
                 "rank": 141,
-                "holdcards": [six, five],
+                "holecards": [six, five],
                 "suited": false,
             },
             {
                 "rank": 142,
-                "holdcards": [nine, two],
+                "holecards": [nine, two],
                 "suited": true,
             },
             {
                 "rank": 143,
-                "holdcards": [ten, five],
+                "holecards": [ten, five],
                 "suited": false,
             },
             {
                 "rank": 144,
-                "holdcards": [seven, three],
+                "holecards": [seven, three],
                 "suited": true,
             },
             {
                 "rank": 145,
-                "holdcards": [five, two],
+                "holecards": [five, two],
                 "suited": true,
             },
             {
                 "rank": 146,
-                "holdcards": [seven, five],
+                "holecards": [seven, five],
                 "suited": false,
             },
             {
                 "rank": 147,
-                "holdcards": [five, four],
+                "holecards": [five, four],
                 "suited": false,
             },
             {
                 "rank": 148,
-                "holdcards": [six, two],
+                "holecards": [six, two],
                 "suited": true,
             },
             {
                 "rank": 149,
-                "holdcards": [eight, three],
+                "holecards": [eight, three],
                 "suited": true,
             },
             {
                 "rank": 150,
-                "holdcards": [eight, two],
+                "holecards": [eight, two],
                 "suited": true,
             },
             {
                 "rank": 151,
-                "holdcards": [six, four],
+                "holecards": [six, four],
                 "suited": false,
             },
             {
                 "rank": 152,
-                "holdcards": [seven, two],
+                "holecards": [seven, two],
                 "suited": true,
             },
             {
                 "rank": 153,
-                "holdcards": [eight, five],
+                "holecards": [eight, five],
                 "suited": false,
             },
             {
                 "rank": 154,
-                "holdcards": [nine, five],
+                "holecards": [nine, five],
                 "suited": false,
             },
             {
                 "rank": 155,
-                "holdcards": [seven, four],
+                "holecards": [seven, four],
                 "suited": false,
             },
             {
                 "rank": 156,
-                "holdcards": [eight, four],
+                "holecards": [eight, four],
                 "suited": false,
             },
             {
                 "rank": 157,
-                "holdcards": [nine, four],
+                "holecards": [nine, four],
                 "suited": false,
             },
             {
                 "rank": 158,
-                "holdcards": [nine, three],
+                "holecards": [nine, three],
                 "suited": false,
             },
             {
@@ -865,12 +865,12 @@ class Controller {
             },
             {
                 "rank": 160,
-                "holdcards": [nine, two],
+                "holecards": [nine, two],
                 "suited": false,
             },
             {
                 "rank": 161,
-                "holdcards": [four, two],
+                "holecards": [four, two],
                 "suited": true,
             },
             {
@@ -880,22 +880,22 @@ class Controller {
             },
             {
                 "rank": 163,
-                "holdcards": [five, three],
+                "holecards": [five, three],
                 "suited": false,
             },
             {
                 "rank": 164,
-                "holdcards": [four, three],
+                "holecards": [four, three],
                 "suited": false,
             },
             {
                 "rank": 165,
-                "holdcards": [six, three],
+                "holecards": [six, three],
                 "suited": false,
             },
             {
                 "rank": 166,
-                "holdcards": [ten, three],
+                "holecards": [ten, three],
                 "suited": false,
             },
             {
@@ -920,27 +920,27 @@ class Controller {
             },
             {
                 "rank": 171,
-                "holdcards": [three, two],
+                "holecards": [three, two],
                 "suited": false,
             },
             {
                 "rank": 172,
-                "holdcards": [six, two],
+                "holecards": [six, two],
                 "suited": false,
             },
             {
                 "rank": 173,
-                "holdcards": [eight, three],
+                "holecards": [eight, three],
                 "suited": false,
             },
             {
                 "rank": 174,
-                "holdcards": [eight, two],
+                "holecards": [eight, two],
                 "suited": false,
             },
             {
                 "rank": 175,
-                "holdcards": [seven. two],
+                "holecards": [seven. two],
                 "suited": false,
             },
             ]
