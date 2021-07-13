@@ -1,0 +1,88 @@
+Testing Poker Game
+
+Test area 1: Default values (before any user inputs)
+
+Test 1:
+# arrange 
+no inputs for cards
+assign to a variable
+# act
+call GetCardRanks
+assign result to variable
+# assert 
+assert that the CardRank is empty 
+
+Test 2: 
+# arrange 
+no inputs for cards
+assign to a variable
+# act 
+call GetHandRank
+assign result to variable
+# assert 
+assert that the HandRank is empty
+
+Test 3:
+# arrange
+no inputs for cards
+assign to a variable
+# act
+call getPosition
+assign result to variable
+# assert
+assert that Position is empty
+
+Test 4:
+# arrange
+no inputs for cards
+assign to a variable
+# act
+call get getHandValue
+assign result to variable
+# assert
+assert that the HandValue is empty 
+
+Test area 2: Preflop
+
+for each test, write at leaas 2 happy day scenarios, and 2 bad day scenarios eg not null or array not empty
+
+Test 1:
+# arrange 
+user inputs cards
+assign to a variable
+# act
+call GetCardRanks
+assign result to variable
+# assert
+assert that the card matches the rank
+
+
+Test 2:
+# arrange 
+user inputs cards
+assign to a variable
+# act
+call GetHandRank
+assign result to variable
+# assert
+assert that the hand matches the rank
+
+Test 3:
+# arrange
+user inputs for cards
+assign to a variable
+# act
+call getPosition
+assign result to variable
+# assert
+assert that Position matches
+
+Test 4:
+# arrange
+user inputs for cards
+assign to a variable
+# act
+call get getHandValue
+assign result to variable
+# assert
+assert that the HandValue matches the rank
