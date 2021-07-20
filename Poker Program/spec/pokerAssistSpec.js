@@ -277,6 +277,123 @@ describe('Poker Assist', function() {
                 });
             });
         });
-    
+
+        describe('when a user inputs ace eight with a position of low jack', function() {
+            beforeEach(function() {
+                theHand.addHoleCardA('ace');
+                theHand.addHoleCardB('eight');
+                theHand.suited(false);
+                theHand.addPosition('LowJack');
+            });
+
+            describe('the card rank', function() {
+                it('should be 1, 7', function() {
+                    expect(theHand.getCardRank()).toBe(1,7);
+                });
+            });
+
+            describe('the hand rank', function() {
+                it('should be 46', function() {
+                    expect(theHand.getHandRank()).tobe(46);
+                });
+            });
+
+            describe('the position', function() {
+                it('should be "LowJack"', function() {
+                    expect(theHand.getPosition()).toBe('LowJack');
+                });
+            });
+
+            describe('the hand value', function() {
+                it('should be "high card"', function() {
+                    expect(theHand.getHandValue()).toBe('high card');
+                });
+            });
+
+            describe('holecards suited', function() {
+                it('should be false', function() {
+                    expect(theHand.suited).toBeFalsy();
+                });
+            });
+        });
+
+        describe('when the user inputs jack two with a position of high jack', function() {
+            beforeEach(function() {
+                theHand.addHoleCardA('jack');
+                theHand.addHoleCardB('two');
+                theHand.suited(false);
+                theHand.addPosition('HiJack');
+            });
+
+            describe('the card rank', function() {
+                it('should be 4, 13', function() {
+                    expect(theHand.getCardRank()).toBe(4,13);
+                });
+            });
+
+            describe('the hand rank', function() {
+                it('should be 131', function() {
+                    expect(theHand.getHandRank()).toBe(131);
+                });
+            });
+
+            describe('the position', function() {
+                it('should be "HiJack"', function() {
+                    expect(theHand.getPosition()).toBe('HiJack');
+                });
+            });
+
+            describe('the hand value', function() {
+                it('should be "high card"', function() {
+                    expect(theHand.getHandValue()).toBe('high card');
+                });
+            });
+
+            describe('holecards suited', function() {
+                it('should be false', function() {
+                    expect(theHand.suited).toBeFalsy();
+                });
+            });
+        });
+
+        describe('when the user inputs ace two with a position of cut off', function() {
+            beforeEach(function() {
+                theHand.addHoleCardA('ace');
+                theHand.addHoleCardB('two');
+                theHand.suited(true);
+                theHand.addPosition('CutOff');
+            });
+
+            describe('the card rank', function() {
+                it('should be 1, 13', function() {
+                    expect(theHand.getCardRank()).toBe(1,13);
+                });
+            });
+
+            describe('the hand rank', function() {
+                it('should be 45', function() {
+                    expect(theHand.getHandRank()).toBe(45);
+                });
+            });
+
+            describe('the position', function() {
+                it('should be "CutOff"', function() {
+                    expect(theHand.getPosition()).toBe('CutOff');
+                });
+            });
+
+            describe('the hand value', function() {
+                it('should be "high card"', function() {
+                    expect(theHand.getHandValue()).toBe('high card');
+                });
+            });
+
+            describe('holecards suited', function() {
+                it('should be true', function() {
+                    expect(theHand.suited).toBeTruthy();
+                });
+            });
+        });
     });
+    
 });
