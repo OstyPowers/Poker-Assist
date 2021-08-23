@@ -23,6 +23,6 @@ class Hand {
         return this.handValue;
     };
 
-    // testing commit for VScode
+
 
 };
