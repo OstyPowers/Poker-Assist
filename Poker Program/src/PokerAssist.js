@@ -1,4 +1,4 @@
-class Hand {
+class Hand { // testing webhook
     constructor() {
         this.cardRank = null;
         this.handRank = null;
@@ -25,4 +25,4 @@ class Hand {
 
 
 
-}; // testing webhook
+}; 
