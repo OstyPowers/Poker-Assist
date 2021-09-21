@@ -46,8 +46,8 @@ describe('Poker Assist', function() {
 
         describe('when the user inputs ace ace with a position of button', function() {
             beforeEach(function() {
-                theHand.addHoleCardA('ace');
-                theHand.addHoleCardB('ace');
+                theHand.addHoleCardA('ace', 'heart');
+                theHand.addHoleCardB('ace', 'spade');
                 theHand.suited(false)
                 theHand.addPosition('Button');
             });
@@ -85,8 +85,8 @@ describe('Poker Assist', function() {
 
         describe('when the user inputs jack ten with a position of small blind', function() {
             beforeEach(function() {
-                theHand.addHoleCardA('jack');
-                theHand.addHoleCardB('ten');
+                theHand.addHoleCardA('jack', 'club');
+                theHand.addHoleCardB('ten', 'club');
                 theHand.suited(true);
                 theHand.addPosition('Small Blind');
                 });
@@ -124,8 +124,8 @@ describe('Poker Assist', function() {
 
         describe('when the user inputs eight eight with a position of big blind', function() {
             beforeEach(function() {
-                theHand.addHoleCardA('eight');
-                theHand.addHoleCardB('eight');
+                theHand.addHoleCardA('eight', 'diamond');
+                theHand.addHoleCardB('eight', 'spade');
                 theHand.suited(false);
                 theHand.addPosition('Big Blind');
             });
@@ -163,8 +163,8 @@ describe('Poker Assist', function() {
 
         describe('when the user inputs seven two with a position of under the gun', function() {
             beforeEach(function() {
-                theHand.addHoleCardA('seven');
-                theHand.addHoleCardB('two');
+                theHand.addHoleCardA('seven', 'club');
+                theHand.addHoleCardB('two', 'heart');
                 theHand.suited(false);
                 theHand.addPosition('UTG');
             });
@@ -202,8 +202,8 @@ describe('Poker Assist', function() {
 
         describe('when user inputs ten two with a position of under the gun plus one', function() {
             beforeEach(function() {
-                theHand.addHoleCardA('ten');
-                theHand.addHoleCardB('two');
+                theHand.addHoleCardA('ten', 'spade');
+                theHand.addHoleCardB('two', 'spade');
                 theHand.suited(true);
                 theHand.addPosition('UTG+1');
             });
@@ -241,8 +241,8 @@ describe('Poker Assist', function() {
 
         describe('when a user inputs six five with a position of under the gun plus two', function() {
             beforeEach(function() {
-                theHand.addHoleCardA('six');
-                theHand.addHoleCardB('five');
+                theHand.addHoleCardA('six', 'club');
+                theHand.addHoleCardB('five', 'club');
                 theHand.suited(true);
                 theHand.addPosition('UTG+2');
             });
@@ -280,8 +280,8 @@ describe('Poker Assist', function() {
 
         describe('when a user inputs ace eight with a position of low jack', function() {
             beforeEach(function() {
-                theHand.addHoleCardA('ace');
-                theHand.addHoleCardB('eight');
+                theHand.addHoleCardA('ace', 'heart');
+                theHand.addHoleCardB('eight', 'diamond');
                 theHand.suited(false);
                 theHand.addPosition('LowJack');
             });
@@ -319,8 +319,8 @@ describe('Poker Assist', function() {
 
         describe('when the user inputs jack two with a position of high jack', function() {
             beforeEach(function() {
-                theHand.addHoleCardA('jack');
-                theHand.addHoleCardB('two');
+                theHand.addHoleCardA('jack', 'heart');
+                theHand.addHoleCardB('two', 'spade');
                 theHand.suited(false);
                 theHand.addPosition('HiJack');
             });
@@ -358,8 +358,8 @@ describe('Poker Assist', function() {
 
         describe('when the user inputs ace two with a position of cut off', function() {
             beforeEach(function() {
-                theHand.addHoleCardA('ace');
-                theHand.addHoleCardB('two');
+                theHand.addHoleCardA('ace', 'diamond');
+                theHand.addHoleCardB('two', 'diamond');
                 theHand.suited(true);
                 theHand.addPosition('CutOff');
             });
