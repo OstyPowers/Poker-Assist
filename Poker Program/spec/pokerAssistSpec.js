@@ -49,7 +49,7 @@ describe('Poker Assist', function() {
                 theHand.addHoleCardA('ace', 'heart');
                 theHand.addHoleCardB('ace', 'spade');
                 theHand.suited(false)
-                theHand.addPosition('Button');
+                theHand.addPosition('Button'); 
             });
 
             describe('the card rank', function() {
